@@ -1,0 +1,12 @@
+{
+  "name": "videolink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "coffee --compile --output lib/ src/ && node lib/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.0.2"
+  }
+}
